@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane minHeight="400.0" minWidth="400.0" prefHeight="471.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="92.0" layoutX="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/smile.jpg" />
+         </image>
+			</ImageView>
+            <TextArea fx:id="width" layoutX="95.0" layoutY="234.0" prefHeight="18.0" prefWidth="50.0" text="5" />
+            <TextArea fx:id="hieght" layoutX="94.0" layoutY="293.0" prefHeight="18.0" prefWidth="50.0" text="5" />
+            <TextArea fx:id="mines" layoutX="94.0" layoutY="354.0" prefHeight="18.0" prefWidth="50.0" text="1" />
+      <Button fx:id="reset" layoutX="12.0" layoutY="178.0" mnemonicParsing="false" onAction="#Reset" prefHeight="36.0" prefWidth="130.0" text="Reset" />
+      <Label layoutX="26.0" layoutY="245.0" text="width" />
+      <Label layoutX="26.0" layoutY="365.0" text="mines" />
+      <Label layoutX="26.0" layoutY="303.0" text="hieght" />
+      <StackPane fx:id="StackPane" layoutX="164.0" layoutY="113.0" prefHeight="360.0" prefWidth="410.0" />
+         </children>
+</AnchorPane>
